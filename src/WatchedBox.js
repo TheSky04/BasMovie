@@ -13,7 +13,7 @@ function WatchedBox({
 }) {
   const [watchedMovies, setWatchedMovies] = useState(() => {
     const watchedMoviesList = localStorage.getItem("watched") || [];
-    return JSON.parse(watchedMoviesList);
+    return watchedMoviesList ? JSON.parse(watchedMoviesList) : [];
   });
 
   useEffect(() => {
