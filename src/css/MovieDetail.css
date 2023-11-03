@@ -1,0 +1,102 @@
+.movieDetail {
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  background-color: #495057;
+  border-radius: 5px;
+  padding: 2rem;
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  justify-content: flex-start;
+}
+
+.movieDetail--description {
+  color: #fff;
+  font-size: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #343a40;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.movie--title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.movie--gray {
+  color: #adb5bd;
+}
+
+.movieDetail--explainment {
+  background-color: #212529;
+  border-radius: 5px;
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+}
+
+.movieDetail--explainment--text {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2.2;
+  text-align: justify;
+}
+
+.starRating--container {
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #495057;
+  margin-left: 0 auto;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+  width: 30rem;
+}
+
+.back {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background: none;
+  border: none;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+}
+
+.back:hover {
+  color: #fff;
+  background-color: #212529;
+}
+
+.movieDetail--addToList {
+  text-align: center;
+}
+
+.movieDetail--addBtn {
+  background: none;
+  background-color: #fff;
+  border: none;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 2rem 4rem rgba(255, 255, 255, 0.15);
+}
+
+.movieDetail--addBtn:hover {
+  color: #fff;
+  background-color: #212529;
+}

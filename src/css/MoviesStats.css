@@ -1,0 +1,28 @@
+.watchedBoxContainer {
+  background-color: #343a40;
+  border-radius: 5px;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.watchedBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.watchedBoxContainer h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.watchedBox--item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem;
+  color: #fff;
+  font-size: 1.5rem;
+}

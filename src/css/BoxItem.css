@@ -1,0 +1,20 @@
+.box--item {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.box--item:hover {
+  opacity: 0.8;
+  background-color: #212529;
+}

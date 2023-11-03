@@ -1,0 +1,32 @@
+.watchedMovieItem {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.watchedMovieItem:hover {
+  background-color: #212529;
+}
+
+.watchedMovieItem img {
+  width: 7rem;
+}
+
+.watchedMovieItem--button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.watchedMovieItem--button:hover {
+  opacity: 0.7;
+}
