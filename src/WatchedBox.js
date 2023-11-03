@@ -12,7 +12,7 @@ function WatchedBox({
   onHandleSelectedId,
 }) {
   const [watchedMovies, setWatchedMovies] = useState(() => {
-    const watchedMoviesList = localStorage.getItem("watched") || [];
+    const watchedMoviesList = localStorage.getItem("watched");
     return watchedMoviesList ? JSON.parse(watchedMoviesList) : [];
   });
 
